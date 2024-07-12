@@ -2,6 +2,8 @@ import os
 from pydub import AudioSegment
 import streamlit as st
 import tempfile
+import ffmpeg
+
 
 def check_audio_duration(files, limit_minutes=5):
     limit_seconds = limit_minutes * 60

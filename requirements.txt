@@ -3,3 +3,4 @@ ffprobe==0.5
 ffprobe-python==1.0.3
 ffmpeg-python==0.2.0
 python-ffmpeg==2.0.12
+ffmpeg==1.4
